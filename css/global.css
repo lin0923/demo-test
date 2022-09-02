@@ -1,0 +1,13 @@
+/*
+** filename: global.css
+** description: PHP範例網路應用程式基礎樣式表
+** author: Brian Tao / brian.tao@informc.com
+** modification history:
+**** 2017.07.20: created
+*/
+body{
+  background-color: silver;
+}
+input[type=text], input[type=password]{
+  width: 300px;
+}

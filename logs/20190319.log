@@ -1,0 +1,6 @@
+[2019-03-19 16:37:41] 0001 登入成功
+[2019-03-19 16:37:42] getData: 0001
+[2019-03-19 16:37:44] loadSalary: 0001
+[2019-03-19 16:37:44] (SQL ERROR) [42S22] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'startDate' in 'order clause'
+SELECT * FROM example.salary_history WHERE memId=? ORDER BY startDate;
+[2019-03-19 16:38:02] loadSalary: 0001
